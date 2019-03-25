@@ -57,3 +57,32 @@ body
     display: flex;
     align-items: center;
 }
+.skillimg
+{
+    text-align: center;
+    padding: 16px;
+    font-weight: 400;
+    font-size: 1.2vw;
+
+}
+.skillimg img
+{
+    display: block;
+    margin:  auto;
+    width: 40%;
+    height: 20%;
+    
+}
+
+.skillimg p
+{
+    font-weight: 500;
+    font-size: 1.5vw;
+    color: #144993;
+}
+.skillbox
+{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
