@@ -44,7 +44,6 @@ body
 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 1.2vw;
     color: #202124;
 }
 
@@ -62,7 +61,6 @@ body
     text-align: center;
     padding: 16px;
     font-weight: 400;
-    font-size: 1.2vw;
 
 }
 .skillimg img
@@ -77,7 +75,6 @@ body
 .skillimg p
 {
     font-weight: 500;
-    font-size: 1.5vw;
     color: #144993;
 }
 .skillbox
