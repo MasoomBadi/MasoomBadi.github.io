@@ -1,12 +1,12 @@
 body
 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     margin: 0px;
 }
 .navbar
 {
     display: inline-block;
-    font-family: 'Open Sans', sans-serif;
     background-color: #1c1c1c;
     text-align: end;
     font-size: 14px;
@@ -19,7 +19,8 @@ body
     text-decoration: none;
     padding-right: 14px;
     margin-right: 14px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     color: white;
 }
 .navbar a:hover
@@ -27,5 +28,33 @@ body
     background-color:white;
     color: #1c1c1c;
     padding: 16px;
+    font-weight: 500;
     font-size: 16px;
+}
+.img-circle
+{
+    padding: 20px;
+    border-radius:20%;
+    width: 20%;
+    height:20%;
+    float: left;
+}
+
+.mydetail
+{
+    padding: 120px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.2vw;
+    color: #202124;
+}
+
+.mydetail h1
+{
+    color: #948787;
+}
+.imgbox
+{
+    display: flex;
+    align-items: center;
 }
