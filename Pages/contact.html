@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/CSS/main.css">
+    <script src="/Scripts/angular.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <body>
+
+        <div id="navBar" class="navbar">
+            <a href="/index.html">ABOUT ME</a>
+            <a href="portfolio.html">PORTFOLIO</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+
+        <div class="labelcon">CONTACT ME</div>
+        <div class="formcontainer">
+            
+           
+            <form action="mailer.php" id="contactform" method="POST">
+    
+                <div class="group">      
+                  <input type="text" name="username" required>
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>Name</label>
+                </div>
+
+                <div class="group">      
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>E-mail/Phone</label>
+                  </div>
+
+                  <div class="group">      
+                    <textarea rows="5" cols="70" name="message" form="contactform" required></textarea>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Message</label>
+                  </div>
+
+                  <div>
+                      <input type="submit" value="Submit" class="button button1">
+                  </div>
+                </form>
+        </div>
+    </body>
+   
+</head>
+</html>
