@@ -1,85 +1,108 @@
 <!DOCTYPE html>
-    <html>
-    <head>
+<html ng-app>
+
+<head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Masoom Badi</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" media="screen" href="CSS/main.css">
-        <script src="Scripts/angular.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
-    </head>
-    <body>
-        <div id="navBar" class="navbar">
-            <a href="index.html">ABOUT ME</a>
-            <a href="Pages/portfolio.html">PORTFOLIO</a>
-            <a href="Pages/contact.html">CONTACT</a>
-        </div>
 
-        <div class="imgbox">
-            <img class="img-circle" src="https://drive.google.com/uc?id=1SZ9N8BgOWBwZP0AkkS0-5TsTHN3VmxrY" alt="My Photo">
-            <span class="mydetail">
-                <h1>MASOOM BADI.</h1> 
-                <br>
-                24 years old, Full stack developer, Freelancer.
-                <br>
-                <br>
-                My main focus includes mobile app development for Android Platform with JAVA, along with front-end and back-end developemnt.
-                Back-end mostly includes PHP, MY SQL.
-                I am currently working as a freelancer. 
-                <br>
-                <br>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
 
-                My non-professional interest includes playing video-games, cycling, football and music sometimes.
-            </span>
-        </div>
-        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+                crossorigin="anonymous">
 
-        <div class="btwnstripe">
-         STUFFS I AM UP TO..
-        </div>
-        <div class="skillbox">
-              
-                <div class="skillimg" id="android">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
 
-                        <div>
-                                <img src="https://drive.google.com/uc?id=1m34ZaxhfmNjsw2kikAdmsm-JdarW2le0" alt="ANDROID">
-                                <p>ANDROID</p>
-                                My main work and focus is mobile applications for Android in JAVA, implementing various libs and covering back-ends.
+        <link rel="stylesheet" href="CSS/main.css">
+
+        <link href="//cdn.materialdesignicons.com/3.5.95/css/materialdesignicons.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">Masoom Badi</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                        <a class="nav-item nav-link" href="index.html">ABOUT ME</a>
+                                        <a class="nav-item nav-link" href="Pages/portfolio.html">PORTFOLIO</a>
+                                        <a class="nav-item nav-link" href="Pages/contact.html ">CONTACT ME</a>
+                                </div>
                         </div>
-                        
-                </div>  
+                </div>
+        </nav>
 
-                <div class="skillimg" id="web">
+        <div class="container-fluid bg-light">
+                <div class="text-center pt-5">
+                        <h2><b>MASOOM BADI</b></h2>
+                </div>
 
-                        <div>
-                                <img src="https://drive.google.com/uc?id=1f3yKxyHWqLSoRwm5g3nIZn6-gLdqO6mG" alt="HTML">
-                                <p>WEB</p>
-                                I like to create website like this. My most preference is HTML, CSS and sometimes framework like jQuery/bootstrap.
+                <div class="text-center pt-3 pb-3 textdetail">
+                        24 years old, Full stack software developer, Freelancer.
+                </div>
+
+                <div class="row justify-content-center">
+                        <div class="column-sm ml-5 mt-3">
+                                <a href="https://github.com/MasoomBadi">
+                                        <div class="card text-white bg-dark border-primary text-center stretched-link"
+                                        style="width: 9rem;">
+                                        <div class="card-header text-center"><i>GITHUB</i></div>
+                                        <div class="card-body mdi mdi-github-circle mdi-48px"></div>
+                                </div>
+                                </a>
+                               
                         </div>
-                        
-                </div>  
-
-                <div class="skillimg" id="backend">
-
-                        <div>
-                                <img src="https://drive.google.com/uc?id=1uI6H-TMffwsQMHzh8nQmZq66fRg_g6td" alt="Backend">
-                                <p>BACK-END</p>
-                                Mostly develop back-end for android by myself with PHP, MYSQL mainly. Also worked with Firebase.
+                        <div class="column-sm ml-5 mt-3">
+                                        <a href="https://twitter.com/samjack8146">
+                                                <div class="card text-white bg-dark border-primary text-center stretched-link"
+                                                style="width: 9rem;">
+                                                <div class="card-header text-center"><i>TWITTER</i></div>
+                                                <div class="card-body mdi mdi-twitter mdi-48px"></div>
+                                        </div>
+                                        </a>
+                                      
                         </div>
-                        
-                </div>  
-
-                <div class="skillimg" id="angular">
-
-                        <div>
-                                <img src="https://drive.google.com/uc?id=1aJtd2gDMJT6rCH0Mwq3pDIb9Ct6MF-38" alt="Angular">
-                                <p>ANGULAR JS</p>
-                                Just a beginner in this, started to explore and learn Angular JS for Web Apps and P.W.A.
+                        <div class="column-sm ml-5 mt-3">
+                                        <a href="https://www.instagram.com/masoombadi/">
+                                                <div class="card text-white bg-dark border-primary text-center stretched-link"
+                                                style="width: 9rem;">
+                                                        <div class="card-header text-center"><i>INSTAGRAM</i></div>
+                                                        <div class="card-body mdi mdi-instagram mdi-48px"></div>
+                                                </div>
+                                        </a>
+                                       
                         </div>
-                        
-                </div>  
-            
+                        <div class="column-sm ml-5 mt-3">
+                                        <a href="https://www.linkedin.com/in/masoombadi/">
+                                                <div class="card text-white bg-dark border-primary text-center stretched-link"
+                                        style="width: 9rem;">
+                                                <div class="card-header text-center"><i>LINKEDIN</i></div>
+                                                <div class="card-body mdi mdi-linkedin-box mdi-48px"></div>
+                                        </div>
+                                        </a>
+                                        
+                        </div>
+
+                </div>
+
         </div>
+</body>
 
-    </body>
-    </html>
+</html>
